@@ -10,6 +10,11 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900">
                     {{ __("You're logged in!") }}
+                    
+                    <!-- Link to the Products Page -->
+                    <div class="mt-4">
+                        <a href="{{ route('products.index') }}" class="text-blue-600 hover:text-blue-900">Go to Products</a>
+                    </div>
                 </div>
             </div>
         </div>
